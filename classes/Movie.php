@@ -13,11 +13,13 @@ class Movie{
         $this->name = $_genere;
     }
 
-
 }
 
-$titanic = new Movie('prova' , 'prova' , 'prova');
-var_dump($titanic)
+$movieUno = new Movie('Titanic', ['Leornardo Di Caprio','Kate Winslet'] , 'Drammatico');
+
+$movieDue = new Movie('Prova a prendermi', ['Leornardo Di Caprio','Tom Hanks'] , 'Azione');
+
+var_dump($movieUno,$movieDue)
 
 
 ?>
